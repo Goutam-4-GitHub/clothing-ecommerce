@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: 'http://localhost:5173', // your React frontend URL
+    origin: 'clothing-ecommerce-netlify.netlify.app', // your React frontend URL
     credentials: true,
   })
 );
